@@ -1,0 +1,236 @@
+/*
+*Name : Mahedavi Rakib
+*Student Number : 8981270
+*/
+html{
+    font-size: 20px;
+}
+
+body{
+    font: 20px;
+    background-color: goldenrod;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+h1{
+    color: blue;
+    font-size: 2.5rem;
+    background-color: hsl(53, 68%, 75%);
+    padding: 20px;
+    border: 2px solid #333;
+    text-align: center; 
+      
+}
+
+
+h2{
+    
+    font-size: 30px;
+}
+
+.structural{
+    margin: 1rem;
+  }
+
+
+.csi{
+    padding: 20px;
+  border: 2px solid #333;
+  margin: 10px;
+}
+
+header{
+    background-color: hsl(44, 81%, 50%);
+    padding: 20px;
+    
+}
+
+main {
+    background-color: hsl(120px, 50px, 80px);
+    flex: 2 1 70%;
+    padding: 1%;
+  }
+
+.csi nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.csi nav li{
+    display: inline;
+    position:initial;
+    margin: 50px;
+    
+}
+
+.csi nav a{
+    border: 2px solid indigo;
+    border-radius: 5px;
+    color: indigo;
+    font-family: arial, sans-serif;
+    padding: 1em;
+    text-decoration:none;
+
+}
+
+.csi nav a:hover {
+    background-color: cornsilk;
+}
+
+
+
+aside{
+    background-color: hsl(289, 40%, 60%);
+    flex: 1 1 30%;
+  padding: 3%;
+  margin: 20px;
+  display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr auto;
+  border: black solid 2px;
+    
+}
+ 
+
+footer{ 
+    background-color: hsl(60, 20%, 80%);
+    
+    padding: 1px;
+    margin: 10px;
+}
+
+
+a:hover {
+    color: #550;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+#p1{
+    color: rgb(222, 442, 785);
+    background-color: brown;
+    float: right;
+    width: 490px;
+    padding: 9px;
+ 
+}
+
+#p2{
+    color: rgb(0, 0, 820);
+    background-color: dimgray;
+}
+
+#p3{
+    color: rgb(0, 111, 0);
+    background-color:chartreuse;
+    float: inline-start;
+}
+
+
+
+form{
+    border: 5px dashed black;
+    padding: 50px;    
+}
+
+input[type="text"] ,input[type="Email"] ,input[type="submit"] ,select,option{
+width: 50%;
+display: block;
+height: 2em;
+}
+
+
+input[type="radio"] ,input[type="checkbox"]{
+    width: 2em;
+    height: 2em;
+}
+
+
+select,option,label,input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+
+  textarea{
+    display: block;
+    width: 50%;
+  }
+
+  fieldset{
+    border: none;
+  }
+
+  table{
+    border: 2px;
+    width: 70%;
+    border-collapse: collapse;
+  }
+
+  th,td{
+    border: 2px solid black;
+    text-align: center;
+
+  }
+
+  
+
+
+
+  #gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+  }
+
+  .img-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+  }
+
+
+  figcaption{
+  text-align: center;
+  }
+
+  figure{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    html {
+      font-size: 10px;
+    }
+  
+    .img-sec {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
